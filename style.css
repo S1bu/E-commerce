@@ -1,0 +1,101 @@
+/*************************Nav************/
+.nav{
+    background-color: cadetblue;
+    
+}
+.nav-item{
+    
+}
+
+.nav li{
+  margin-left: 5px;
+  padding: 20px;
+}
+/*************************************************/
+/*********column*********/
+.col img{
+    width: 300px;
+    height: 370px;
+}
+.col{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button{
+    float: left;
+    width: 50%;
+
+  }
+
+  .button a{
+    background-color:cadetblue;
+    border: 1px solid black;
+    border-radius:10px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+  }
+.container{
+    margin-bottom: 10px;
+}
+/*
+.col:hover{
+    transform: scale(1.1);
+    transition: all ease-in 0,6s;
+
+}*/
+/********************************************/
+/**** POP UP****/
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    left: 25%;
+      top: 0;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    overflow: scroll;
+    height: 100%;
+  }
+  
+  /* Add styles to the form container */
+  .container-pop {
+    max-width: 600px;
+    padding: 10px;
+    background-color:white;
+    
+  }
+  .container-pop img{
+    padding: 2px;
+    width: 500px;
+    height: 400px;
+    margin-left: 60px;
+    
+  }
+
+
+  .bi{
+    width: 30px;
+    height: 30px;
+    color:cadetblue;
+    border:1px solid white ;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px;
+  }
+  /***********************************************/
